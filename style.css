@@ -19,3 +19,21 @@ h2 {
   font-size: 30px;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.picture {
+  width: 200px;
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+.pictext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
